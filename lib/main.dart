@@ -22,6 +22,7 @@ class _MyAppState extends State<MyApp> {
     var iOS = const IOSInitializationSettings();
     var initSetttings = new InitializationSettings(android: android, iOS: iOS);
     flutterLocalNotificationsPlugin.initialize(initSetttings,
+    onSelectNotification: selectionNotification
       );
   }
 
