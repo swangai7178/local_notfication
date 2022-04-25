@@ -26,8 +26,6 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future 
-  
-  
   onSelectNotification(String payload) async {
     debugPrint("payload : $payload");
     showDialog(
